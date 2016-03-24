@@ -34,10 +34,12 @@
 				<ul>
 					<li>Web Services -
 						https://github.com/svsdigitaltechnologies/hztb</li>
-					<li>Configuration -
+					<li>Setup -
 						https://github.com/svsdigitaltechnologies/hztb-config</li>
-					<li>Android UI</li>
-					<li>iOS UI</li>
+					<li>Android UI -
+						https://github.com/svsdigitaltechnologies/hztb-android</li>
+					<li>iOS UI -
+						https://github.com/svsdigitaltechnologies/hztb-ios</li>
 				</ul>
 			</a>
 
