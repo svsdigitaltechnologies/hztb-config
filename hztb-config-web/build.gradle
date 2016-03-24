@@ -25,3 +25,5 @@ dependencies {
 httpPort = 8080
 stopPort = 9090
 stopKey = "stopKey"
+tomcatRunWar.contextPath = '/hztbconfig'
+tomcatRun.contextPath = '/hztbconfig'
