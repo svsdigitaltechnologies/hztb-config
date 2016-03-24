@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.bmuschko:gradle-tomcat-plugin:2.2.4'
+    }
+}
+
+
+apply plugin: "war"
+apply plugin: "jetty"
+apply plugin: "com.bmuschko.tomcat"
+
+dependencies {
+   compile project(":utils")
+   compile "javax.servlet:servlet-api:2.5"
+   
+   def tomcatVersion = '8.0.32'
+    tomcat "org.apache.tomcat.embed:tomcat-embed-core:${tomcatVersion}",
+           "org.apache.tomcat.embed:tomcat-embed-logging-juli:${tomcatVersion}",
+           "org.apache.tomcat.embed:tomcat-embed-jasper:${tomcatVersion}"
+}
+
+httpPort = 8080
+stopPort = 9090
+stopKey = "stopKey"
