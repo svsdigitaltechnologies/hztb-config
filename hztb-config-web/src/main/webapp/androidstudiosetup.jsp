@@ -19,6 +19,10 @@
 			<h2>Contents</h2>
 			<ul>
 				<li><a href="#overview">1.Overview</a></li>
+				<li><a href="#download">2.Download Android Studio</a></li>
+				<li><a href="#import">3.Import hztb-android project into Android Studio</a></li>
+				
+
 			</ul>
 		</div>
 
@@ -26,11 +30,43 @@
 
 			<a id="overview">
 				<h2>1.Overview</h2>
-				<p>Yet to come</p>
+				<p>This page explains the steps that are required to configure
+					our project in Android Studio</p>
+
+				<p style="color: blue;">Before coming to this page, you need to
+					complete the git cloning for hztb-android repository as explained
+					in previous steps</p>
+
 			</a>
 
 		</div>
 
+		<div class="section grid grid15">
+
+			<a id="download">
+				<h2>2.Download Android Studio</h2>
+				<p>download android studio from
+					https://developer.android.com/sdk/installing/studio.html</p>
+				<p>run the down loaded executable and opt the default options to
+					complete the installation</p>
+				<p>launch Android Studio</p>
+			</a>
+
+		</div>
+
+	<div class="section grid grid15">
+
+			<a id="import">
+				<h2>3.Import hztb-android project into Android Studio</h2>
+				<p>Import the project into android studio. File -> New -> Import Project(Select the root folder hztb-android)
+				<p style="color: blue;">Note: The project will open in a new Android Studio Window</p>
+			</a>
+
+		</div>
+
+
 	</div>
 </body>
 </html>
+
+

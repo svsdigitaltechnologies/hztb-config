@@ -66,7 +66,19 @@
 						<tr>
 							<td>hztb webservices</td>
 							<td>Tomcat</td>
-							<td>ec2-user@ec2-52-200-127-89.compute-1.amazonaws.com/</td>
+							<td>ec2-user@ec2-52-200-127-89.compute-1.amazonaws.com</td>
+							<td>22</td>
+						</tr>
+						<tr>
+							<td>hztb setup</td>
+							<td>url</td>
+							<td>http://hztbsetup.us-east-1.elasticbeanstalk.com/</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>hztb setup</td>
+							<td>Tomcat</td>
+							<td>ec2-user@ec2-23-23-69-61.compute-1.amazonaws.com</td>
 							<td>22</td>
 						</tr>
 					</tbody>
