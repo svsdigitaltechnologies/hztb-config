@@ -47,9 +47,9 @@
 			</ul>
 			</li>
 
-				<li><a href="eclipsesetup.jsp">8.Eclipse Setup</a></li>
-				<li><a href="androidstudiosetup.jsp">9.Android Studio Setup</a></li>
-				<li><a href="xcodesetup.jsp">10. Xcode Setup</a></li>
+			<li><a href="eclipsesetup.jsp">8.Eclipse Setup</a></li>
+			<li><a href="androidstudiosetup.jsp">9.Android Studio Setup</a></li>
+			<li><a href="xcodesetup.jsp">10. Xcode Setup</a></li>
 
 
 			</ul>
@@ -92,8 +92,9 @@
 				<h4>2.1 Installation</h4>
 				<p>Download GIT from https://git-scm.com/downloads and choose
 					the windows distribution. Choose a installation directory that
-					isn't windows program files. GIT Bash is the main UI for running
-					GIT commands and can be found under "start/all programs/git"</p>
+					isn't windows program files.</p>
+				<p style="color: blue;">GIT Bash is the main UI for running GIT
+					commands and can be found under "start/all programs/Git Bash"</p>
 			</a><a id="githubpermissions">
 
 				<h4>2.2 GitHub Permissions</h4>
