@@ -14,6 +14,7 @@
 	<div id="content" class="container">
 		<br />
 		<h1>Development Process</h1>
+		<div align="right"><a href="index.html">Home</a></div>
 
 		<div class="section grid grid15">
 			<h2>Contents</h2>

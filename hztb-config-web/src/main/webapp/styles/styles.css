@@ -10,6 +10,14 @@ body {
 	text-rendering: optimizeLegibility;
 	background-color: #d5e9ed;
 }
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
 
 h2 {
 	font-size: 1.3em;
